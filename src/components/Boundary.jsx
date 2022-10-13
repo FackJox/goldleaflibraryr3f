@@ -70,7 +70,7 @@ export default function Boundary(props) {
     console.log(event);
   };
 
-
+const visible=false
   return (
     <group {...props} dispose={null}>
       <Physics gravity={[0, 0, 0]}>
@@ -86,6 +86,7 @@ export default function Boundary(props) {
             rotation={[-Math.PI / 2, 0, -Math.PI / 2]}
             scale={[13.7, 13.7, 2.95]}
             side={BackSide}
+            visible={visible}
             >
             <meshBasicMaterial color="red" />
           </mesh>
@@ -97,6 +98,8 @@ export default function Boundary(props) {
             position={[0, -2, 0]}
             rotation={[0, 0, 0]}
             scale={[10.69, 2, 13]}
+            visible={visible}
+
           >
             <boxGeometry args={[13, 0.5, 13]} />
 
@@ -111,6 +114,8 @@ export default function Boundary(props) {
             rotation={[-Math.PI / 2, 0, -Math.PI]}
             scale={[10.69, 13.7, 2.95]}
                         side={BackSide}
+                        visible={visible}
+
 
           >
             <meshBasicMaterial color="red" />
@@ -124,6 +129,8 @@ export default function Boundary(props) {
             position={[0.16, 2.65, -21.66]}
             rotation={[-Math.PI / 2, 0, -Math.PI]}
             scale={[10.69, 13.7, 2.95]}
+            visible={visible}
+
           >
             <meshBasicMaterial color="red" />
           </mesh>
@@ -136,6 +143,8 @@ export default function Boundary(props) {
             position={[10.93, 2.65, -9.04]}
             rotation={[-Math.PI / 2, 0, -Math.PI / 2]}
             scale={[13.7, 13.7, 2.95]}
+            visible={visible}
+
           >
             <meshBasicMaterial color="red" />
           </mesh>
@@ -147,6 +156,8 @@ export default function Boundary(props) {
             geometry={nodes.Boundary.geometry}
             position={[6.06, 2.07, -20.81]}
             scale={[2.52, 2.21, 0.39]}
+            visible={visible}
+
           >
             <meshBasicMaterial color="red" />
           </mesh>
@@ -158,6 +169,8 @@ export default function Boundary(props) {
             geometry={nodes.Boundary002.geometry}
             position={[6.06, 2.07, -11.86]}
             scale={[2.52, 2.21, 0.39]}
+            visible={visible}
+
           >
             <meshBasicMaterial color="red" />
           </mesh>
@@ -169,6 +182,8 @@ export default function Boundary(props) {
             geometry={nodes.Boundary001.geometry}
             position={[6.06, 2.07, -16.36]}
             scale={[2.52, 2.21, 0.39]}
+            visible={visible}
+
           >
             <meshBasicMaterial color="red" />
           </mesh>
@@ -180,6 +195,8 @@ export default function Boundary(props) {
             geometry={nodes.Boundary003.geometry}
             position={[6.06, 2.07, -7.36]}
             scale={[2.52, 2.21, 0.39]}
+            visible={visible}
+
           >
             <meshBasicMaterial color="red" />
           </mesh>
@@ -191,6 +208,8 @@ export default function Boundary(props) {
             geometry={nodes.Boundary006.geometry}
             position={[-5.89, 2.07, 1.75]}
             scale={[2.52, 2.21, 0.39]}
+            visible={visible}
+
           >
             <meshBasicMaterial color="red" />
           </mesh>
@@ -202,6 +221,8 @@ export default function Boundary(props) {
             geometry={nodes.Boundary004.geometry}
             position={[6.06, 2.07, -2.76]}
             scale={[2.52, 2.21, 0.39]}
+            visible={visible}
+
           >
             <meshBasicMaterial color="red" />
           </mesh>
@@ -213,6 +234,8 @@ export default function Boundary(props) {
             geometry={nodes.Boundary007.geometry}
             position={[-5.89, 2.07, -2.8]}
             scale={[2.52, 2.21, 0.39]}
+            visible={visible}
+
           >
             <meshBasicMaterial color="red" />
           </mesh>
@@ -224,6 +247,8 @@ export default function Boundary(props) {
             geometry={nodes.Boundary005.geometry}
             position={[6.06, 2.07, 1.75]}
             scale={[2.52, 2.21, 0.39]}
+            visible={visible}
+
           >
             <meshBasicMaterial color="red" />
           </mesh>
@@ -235,6 +260,8 @@ export default function Boundary(props) {
             geometry={nodes.Boundary008.geometry}
             position={[-5.89, 2.07, -7.38]}
             scale={[2.52, 2.21, 0.39]}
+            visible={visible}
+
           >
             <meshBasicMaterial color="red" />
           </mesh>
@@ -246,6 +273,8 @@ export default function Boundary(props) {
             geometry={nodes.Boundary010.geometry}
             position={[-5.89, 2.07, -16.38]}
             scale={[2.52, 2.21, 0.39]}
+            visible={visible}
+
           >
             <meshBasicMaterial color="red" />
           </mesh>
@@ -257,6 +286,8 @@ export default function Boundary(props) {
             geometry={nodes.Boundary009.geometry}
             position={[-5.89, 2.07, -11.86]}
             scale={[2.52, 2.21, 0.39]}
+            visible={visible}
+
           >
             <meshBasicMaterial color="red" />
           </mesh>
@@ -268,6 +299,8 @@ export default function Boundary(props) {
             geometry={nodes.Boundary011.geometry}
             position={[-5.89, 2.07, -20.84]}
             scale={[2.52, 2.21, 0.39]}
+            visible={visible}
+
           >
             <meshBasicMaterial color="red" />
           </mesh>

@@ -34,7 +34,7 @@ function App() {
         <Suspense fallback={null}>
           <Library />
           <BakeShadows />
-          {/* <Boundary /> */}
+          <Boundary />
           {/* <Cube /> */}
 
           <Player />
