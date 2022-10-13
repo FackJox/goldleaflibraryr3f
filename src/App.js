@@ -1,6 +1,5 @@
 import { Suspense } from "react";
 import { Canvas, useThree } from "@react-three/fiber";
-import { FPSControls } from "react-three-fpscontrols";
 import { Loader, Sky, Environment, BakeShadows } from "@react-three/drei";
 import { Perf } from "r3f-perf";
 import { Physics, RigidBody, CuboidCollider,  } from "@react-three/rapier";
@@ -8,12 +7,9 @@ import { Physics, RigidBody, CuboidCollider,  } from "@react-three/rapier";
 import Library from "./components/Library";
 import Cube from "./components/Cube";
 import Boundary from "./components/Boundary";
+import FPSControls from "./components/FPSControls";
 
-export function Player() {
 
-  return (
-    <Physics gravity={[0, 0, 0]}>
-      <RigidBody>
           <FPSControls
             camProps={{
               makeDefault: true,
@@ -26,12 +22,7 @@ export function Player() {
             enableJoystick
             enableKeyboard
           />
-        <CuboidCollider mass={10} args={[1, 2, 1]} />
-      </RigidBody>
-    </Physics>
-  );
-}
-
+    
 function App() {
   // console.log(scene.camera.position)
 
