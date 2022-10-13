@@ -239,12 +239,12 @@ const FPSControls = ({
       <PerspectiveCamera {...camProps} ref={camRef} />
       <OrbitControls
         autoRotate={false}
-        enableDamping={false}
+        enableDamping={true}
         enableZoom={false}
         enablePan={false}
         autoRotateSpeed={0}
         rotateSpeed={0.4}
-        dampingFactor={0.1}
+        dampingFactor={0.4}
         {...orbitProps}
         ref={orbitRef}
       />
