@@ -243,8 +243,8 @@ const FPSControls = ({
         enableZoom={false}
         enablePan={false}
         autoRotateSpeed={0}
-        rotateSpeed={0.6}
-        dampingFactor={10}
+        rotateSpeed={1}
+        dampingFactor={0.03}
         {...orbitProps}
         ref={orbitRef}
       />
