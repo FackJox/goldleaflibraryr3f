@@ -1,0 +1,36 @@
+{
+  "scripts": {
+    "test": "react-scripts test --env=jsdom",
+    "start": "react-scripts start --host 0.0.0.0",
+    "eject": "react-scripts eject",
+    "build": "react-scripts build"
+  },
+  "devDependencies": {
+    "leva": "^0.9.31",
+    "react-scripts": "4.0.3"
+  },
+  "dependencies": {
+    "@react-three/drei": "^9.34.3",
+    "@react-three/fiber": "^8.8.9",
+    "@react-three/postprocessing": "^2.6.2",
+    "@react-three/rapier": "^0.7.7",
+    "@types/three": "0.141.0",
+    "r3f-perf": "^6.5.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "react-three-fpscontrols": "0.2.0",
+    "three": "^0.145.0"
+  },
+  "browserslist": [
+    ">0.2%",
+    "not dead",
+    "not ie <= 11",
+    "not op_mini all"
+  ],
+  "keywords": [
+    "react-three-fiber",
+    "threejs"
+  ],
+  "name": "Library_R3F",
+  "description": "3D Library for Golden Leaf"
+}
